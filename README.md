@@ -1,2 +1,2 @@
-# navs-crib-website
-A website for my discord server Nav's crib.
+# jar-hangout-website
+A website for my website for a community server.
