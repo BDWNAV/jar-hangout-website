@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
 import Home from "./pages/Home";
-import "./css/Header.css";
+import "./css/App.css";
 
 export default class App extends React.Component {
   render() {
