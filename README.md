@@ -1,2 +1,2 @@
 # jar-hangout-website
-A website for my website for a community server.
+A website for my website for a community server. 
