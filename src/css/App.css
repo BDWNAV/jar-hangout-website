@@ -12,3 +12,7 @@ html, body {
   color: white;
   font-size: 30px;
 }
+
+.content {
+  margin-left: 10px;
+}
