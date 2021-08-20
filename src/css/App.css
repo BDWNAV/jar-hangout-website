@@ -17,3 +17,10 @@ html, body {
 .content {
   margin-left: 10px;
 }
+
+.discord-login {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: purple;
+}
