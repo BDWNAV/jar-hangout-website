@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { staffIds } from "../Utils/utils";
 
 export default class Navbar extends React.Component {
   render() {
@@ -12,6 +13,14 @@ export default class Navbar extends React.Component {
             </li>
             <li className="items">
               <Link to="/staff">Staff</Link>
+            </li>
+            <li className="items">
+              <Link to={staffIds.some((staffIds) => staffIds === this.props.userId) ? `/dash/staff/${this.props.userId}` : "/" }>
+                Dash
+              </Link>
+            </li>
+            <li className="items">
+              <Link to="/suggestions/create">Suggestions</Link>
             </li>
           </ul>
         </div>
