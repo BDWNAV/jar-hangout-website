@@ -7,7 +7,7 @@ export default class Staff extends React.Component {
     return (
       <div>
         <Navbar />
-        <Card pfp="" user="" description="Discord Moderator in Jar hangout" />
+        <Card pfp="https://cdn.bdwnav.tech/4oVH" user="Test" description="Discord Moderator in Jar hangout" />
       </div>
     )
   }
