@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import Staff from "./pages/Staff";
 import StaffDashboard from "./pages/StaffDashboard";
 import Suggestion from "./pages/Suggestion";
-import "./css/app.css";
+import "./App.css";
 
 export default function App() {
   return (

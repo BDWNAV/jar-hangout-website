@@ -1,0 +1,79 @@
+html, body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: blueviolet;
+}
+
+.items {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.4s ease-in;
+}
+
+li a:hover {
+  color: black;
+  background-color: white;
+}
+
+.header {
+  padding: 150px;
+  text-align: center;
+  margin-bottom: 10px;
+  background-image: url("../ZvR3IT8\ -\ Imgur.png");
+  background-size: 100px;
+  color: white;
+  font-size: 30px;
+}
+
+.content {
+  margin-left: 10px;
+}
+
+.discord-login {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #7289DA;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 30px;
+  text-align: center;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.profile-button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 20px;
+}
+
