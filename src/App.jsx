@@ -14,7 +14,7 @@ export default function App() {
         <Route path="/dash/staff/:userId" component={StaffDashboard} />
         <Route path="/staff" component={Staff} />
         <Route path="/" component={Home} />
-      </Switch>
+      </Switch> 
     </main>
   );
 }
